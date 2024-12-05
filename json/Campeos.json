@@ -1,0 +1,1082 @@
+[
+  {
+    "Dano": "AD",
+    "Nome": "Aatrox",
+    "Rota": "Top",
+    "Frase": "A Espada Darkin",
+    "Codigo": 1,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Ambessa",
+    "Rota": "Top",
+    "Frase": "A Matriarca Da Guerra",
+    "Codigo": 2,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Ahri",
+    "Rota": "Meio",
+    "Frase": "A Raposa de Nove Caldas",
+    "Codigo": 3,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Akali",
+    "Rota": "Meio",
+    "Frase": "A Assassina Renegada",
+    "Codigo": 4,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Alistar",
+    "Rota": "Suporte",
+    "Frase": "O Minotauro",
+    "Codigo": 5,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Amumu",
+    "Rota": "Selva",
+    "Frase": "A Múmia Triste",
+    "Codigo": 6,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Annie",
+    "Rota": "Meio",
+    "Frase": "A Criança Sombria",
+    "Codigo": 7,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Ashe",
+    "Rota": "ADC",
+    "Frase": "A Arqueira Gélida",
+    "Codigo": 8,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Aurelion Sol",
+    "Rota": "Meio",
+    "Frase": "O Criador de Estrelas",
+    "Codigo": 9,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Akshan",
+    "Rota": "Meio",
+    "Frase": "O Sentinela Rebelde",
+    "Codigo": 10,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Blitzcrank",
+    "Rota": "Suporte",
+    "Frase": "O Titã À Vapor",
+    "Codigo": 11,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Brand",
+    "Rota": "Meio",
+    "Frase": "A Chama Vingativa",
+    "Codigo": 12,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Braum",
+    "Rota": "Suporte",
+    "Frase": "O Coração de Freljord",
+    "Codigo": 13,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Caitlyn",
+    "Rota": "ADC",
+    "Frase": "A Xerife de Piltover",
+    "Codigo": 14,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Camille",
+    "Rota": "Top",
+    "Frase": "A Sombra de Aço",
+    "Codigo": 15,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Corki",
+    "Rota": "ADC",
+    "Frase": "O Bombardeiro",
+    "Codigo": 16,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Darius",
+    "Rota": "Top",
+    "Frase": "A Mão De Noxus",
+    "Codigo": 17,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Diana",
+    "Rota": "Top",
+    "Frase": "A Caçadora da Lua",
+    "Codigo": 18,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Dr. Mundo",
+    "Rota": "Top",
+    "Frase": "O Monstro de Zaun",
+    "Codigo": 19,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Draven",
+    "Rota": "ADC",
+    "Frase": "O Carrasco De Noxus",
+    "Codigo": 20,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Ekko",
+    "Rota": "Meio",
+    "Frase": "O Rapaz Que Estilhaçou o Tempo",
+    "Codigo": 21,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Evelynn",
+    "Rota": "Selva",
+    "Frase": "O Abraço Da Agonia",
+    "Codigo": 22,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Ezreal",
+    "Rota": "ADC",
+    "Frase": "O Explorador Prodigioso",
+    "Codigo": 23,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Fiddlesticks",
+    "Rota": "Selva",
+    "Frase": "O Terror Ancestral",
+    "Codigo": 24,
+    "Funcao": "Tanque",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Fiora",
+    "Rota": "Top",
+    "Frase": "A Grande Duelista",
+    "Codigo": 25,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Fizz",
+    "Rota": "Meio",
+    "Frase": "O Trapaceiro Das Marés",
+    "Codigo": 26,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Galio",
+    "Rota": "Meio",
+    "Frase": "O Colosso",
+    "Codigo": 27,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Garen",
+    "Rota": "Top",
+    "Frase": "O Poder De Demacia",
+    "Codigo": 28,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Gragas",
+    "Rota": "Top",
+    "Frase": "O Badernista",
+    "Codigo": 29,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Graves",
+    "Rota": "Selva",
+    "Frase": "O Foragido",
+    "Codigo": 30,
+    "Funcao": "Atirador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Gwen",
+    "Rota": "Top",
+    "Frase": "A Costureira Encantada",
+    "Codigo": 31,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Hecarim",
+    "Rota": "Selva",
+    "Frase": "O Sombra Da Guerra",
+    "Codigo": 32,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Heimerdinger",
+    "Rota": "Meio",
+    "Frase": "O Inventor Idolatrado",
+    "Codigo": 33,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Irelia",
+    "Rota": "Top",
+    "Frase": "A Dançarina Das Lâminas",
+    "Codigo": 34,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Janna",
+    "Rota": "Suporte",
+    "Frase": "A Fúria Da Tormenta",
+    "Codigo": 35,
+    "Funcao": "Suporte",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Jarvan IV",
+    "Rota": "Selva",
+    "Frase": "O Exemplo De Demacia",
+    "Codigo": 36,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Jax",
+    "Rota": "Top",
+    "Frase": "O Grão-Mestre Das Armas",
+    "Codigo": 37,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Jhin",
+    "Rota": "ADC",
+    "Frase": "O Virtuoso",
+    "Codigo": 38,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Jayce",
+    "Rota": "Top",
+    "Frase": "O Defensor Do Amanhã",
+    "Codigo": 39,
+    "Funcao": "Atirador",
+    "Alcance": "M"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Jinx",
+    "Rota": "ADC",
+    "Frase": "A Louca",
+    "Codigo": 40,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Kai'Sa",
+    "Rota": "ADC",
+    "Frase": "A Filha do Vazio",
+    "Codigo": 41,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Kassadin",
+    "Rota": "Mid",
+    "Frase": "O Andarilho Do Vazio",
+    "Codigo": 42,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Kalista",
+    "Rota": "ADC",
+    "Frase": "A Lança Da Vingança",
+    "Codigo": 43,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Katarina",
+    "Rota": "Mid",
+    "Frase": "A Lâmina Sinistra",
+    "Codigo": 44,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Kayle",
+    "Rota": "Top",
+    "Frase": "A Justa",
+    "Codigo": 45,
+    "Funcao": "Lutador",
+    "Alcance": "M"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Kayn",
+    "Rota": "Selva",
+    "Frase": "O Ceifador Das Sombras",
+    "Codigo": 46,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Kennen",
+    "Rota": "Top",
+    "Frase": "O Coração Da Tespestade",
+    "Codigo": 47,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Kha'Zix",
+    "Rota": "Selva",
+    "Frase": "O Caçador do Vazio",
+    "Codigo": 48,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Kindred",
+    "Rota": "Selva",
+    "Frase": "Os Caçadores Eternos",
+    "Codigo": 49,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Karma",
+    "Rota": "Suporte",
+    "Frase": "A Iluminada",
+    "Codigo": 50,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Lee Sin",
+    "Rota": "Selva",
+    "Frase": "O Monge Cego",
+    "Codigo": 51,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Leona",
+    "Rota": "Suporte",
+    "Frase": "A Luz do Sol",
+    "Codigo": 52,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Lillia",
+    "Rota": "Selva",
+    "Frase": "A Fada Sonhadora",
+    "Codigo": 53,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Lissandra",
+    "Rota": "Mid",
+    "Frase": "A Bruxa Gélida",
+    "Codigo": 54,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Lucian",
+    "Rota": "ADC",
+    "Frase": "O Purificador",
+    "Codigo": 55,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Lulu",
+    "Rota": "Suporte",
+    "Frase": "A Fada Protetora",
+    "Codigo": 56,
+    "Funcao": "Suporte",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Lux",
+    "Rota": "Meio",
+    "Frase": "A Senhora da Luz",
+    "Codigo": 57,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Malphite",
+    "Rota": "Top",
+    "Frase": "A Força da Natureza",
+    "Codigo": 58,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Master Yi",
+    "Rota": "Selva",
+    "Frase": "O Espadachin Wuju",
+    "Codigo": 59,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Milio",
+    "Rota": "Suporte",
+    "Frase": "A Chama Gentil",
+    "Codigo": 60,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Miss Fortune",
+    "Rota": "ADC",
+    "Frase": "A Caçadora de Recompensas",
+    "Codigo": 61,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Mordekaiser",
+    "Rota": "Top",
+    "Frase": "O Senhor das Correntes",
+    "Codigo": 62,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Morgana",
+    "Rota": "Suporte",
+    "Frase": "A Caída",
+    "Codigo": 63,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Maokai",
+    "Rota": "Suporte",
+    "Frase": "O Ente Sinistro",
+    "Codigo": 64,
+    "Funcao": "Tank",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Nami",
+    "Rota": "Suporte",
+    "Frase": "A Senhora das Águas",
+    "Codigo": 65,
+    "Funcao": "Suporte",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Nasus",
+    "Rota": "Top",
+    "Frase": "O Curador de Shurima",
+    "Codigo": 66,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Nautilus",
+    "Rota": "Suporte",
+    "Frase": "O Titã Das Profundezas",
+    "Codigo": 67,
+    "Funcao": "Tank",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Nilah",
+    "Rota": "ADC",
+    "Frase": "A Alegria Irrestrita",
+    "Codigo": 68,
+    "Funcao": "Lutadora",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Nunu & Willump",
+    "Rota": "Selva",
+    "Frase": "O Menino e o Yeti",
+    "Codigo": 69,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Olaf",
+    "Rota": "Top",
+    "Frase": "O Berserker",
+    "Codigo": 70,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Orianna",
+    "Rota": "Meio",
+    "Frase": "A Garota Mecânica",
+    "Codigo": 71,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Ornn",
+    "Rota": "Top",
+    "Frase": "O Fogo Sob A Fornalha",
+    "Codigo": 72,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Pantheon",
+    "Rota": "Selva",
+    "Frase": "A Lança Indestrutível",
+    "Codigo": 73,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Pyke",
+    "Rota": "Suporte",
+    "Frase": "O Assassino",
+    "Codigo": 74,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Rakan",
+    "Rota": "Suporte",
+    "Frase": "O Apologista",
+    "Codigo": 75,
+    "Funcao": "Suporte",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Rengar",
+    "Rota": "Selva",
+    "Frase": "O Acossador Da Alcateia",
+    "Codigo": 76,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Rammus",
+    "Rota": "Selva",
+    "Frase": "O Furioso",
+    "Codigo": 77,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Riven",
+    "Rota": "Top",
+    "Frase": "A Exilada",
+    "Codigo": 78,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Renekton",
+    "Rota": "Top",
+    "Frase": "O Carniceiro Das Areias",
+    "Codigo": 79,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Samira",
+    "Rota": "ADC",
+    "Frase": "A Sombra de Noxus",
+    "Codigo": 80,
+    "Funcao": "Atirador",
+    "Alcance": "M"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Senna",
+    "Rota": "ADC",
+    "Frase": "A Sentinela da Luz",
+    "Codigo": 81,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Seraphine",
+    "Rota": "Meio",
+    "Frase": "A Estrela da Música",
+    "Codigo": 82,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Sett",
+    "Rota": "Top",
+    "Frase": "O Chefe",
+    "Codigo": 83,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Shen",
+    "Rota": "Top",
+    "Frase": "O Espírito Protetor",
+    "Codigo": 84,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Shyvana",
+    "Rota": "Selva",
+    "Frase": "A Meio-Dragão",
+    "Codigo": 85,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Singed",
+    "Rota": "Top",
+    "Frase": "O Químico Louco",
+    "Codigo": 86,
+    "Funcao": "Tank",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Sion",
+    "Rota": "Top",
+    "Frase": "O Colosso Morto-Vivo",
+    "Codigo": 87,
+    "Funcao": "Tank",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Sivir",
+    "Rota": "ADC",
+    "Frase": "A Caçadora do Deserto",
+    "Codigo": 88,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Sona",
+    "Rota": "Suporte",
+    "Frase": "A Virtuosa",
+    "Codigo": 89,
+    "Funcao": "Suporte",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Soraka",
+    "Rota": "Suporte",
+    "Frase": "A Filha das Estrelas",
+    "Codigo": 90,
+    "Funcao": "Suporte",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Swain",
+    "Rota": "Meio",
+    "Frase": "O Mestre de Guerra de Noxus",
+    "Codigo": 91,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Syndra",
+    "Rota": "Meio",
+    "Frase": "A Soberana Sombria",
+    "Codigo": 92,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Talon",
+    "Rota": "Jungle",
+    "Frase": "A Sombra Da Lâmina",
+    "Codigo": 93,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Teemo",
+    "Rota": "Top",
+    "Frase": "O Escoteiro Vingador",
+    "Codigo": 94,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Thresh",
+    "Rota": "Suporte",
+    "Frase": "O Guardião das Correntes",
+    "Codigo": 95,
+    "Funcao": "Suporte",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Tristana",
+    "Rota": "ADC",
+    "Frase": "A Atiradora de Demacia",
+    "Codigo": 96,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Tryndamere",
+    "Rota": "Top",
+    "Frase": "O Rei Bárbaro",
+    "Codigo": 97,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Twisted Fate",
+    "Rota": "Meio",
+    "Frase": "O Mestre Das Cartas",
+    "Codigo": 98,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Twitch",
+    "Rota": "ADC",
+    "Frase": "Semeador Da Peste",
+    "Codigo": 99,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Urgot",
+    "Rota": "Top",
+    "Frase": "O Encouraçado",
+    "Codigo": 100,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Varus",
+    "Rota": "ADC",
+    "Frase": "A Flecha Da Vingança",
+    "Codigo": 101,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Vayne",
+    "Rota": "ADC",
+    "Frase": "A Caçadora das Sombras",
+    "Codigo": 102,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Veigar",
+    "Rota": "Meio",
+    "Frase": "O Pequeno Mestre do Mal",
+    "Codigo": 103,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Vex",
+    "Rota": "Meio",
+    "Frase": "A Melancolista",
+    "Codigo": 104,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Vi",
+    "Rota": "Selva",
+    "Frase": "A Defensora de Piltover",
+    "Codigo": 105,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Viego",
+    "Rota": "Selva",
+    "Frase": "O Rei-Destruído",
+    "Codigo": 106,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Vladimir",
+    "Rota": "Meio",
+    "Frase": "O Sanguinário Escarlate",
+    "Codigo": 107,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Volibear",
+    "Rota": "Top",
+    "Frase": "A Tempestade Implacavel",
+    "Codigo": 108,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Warwick",
+    "Rota": "Selva",
+    "Frase": "A Fera de Zaun",
+    "Codigo": 109,
+    "Funcao": "Tanque",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Wukong",
+    "Rota": "Top",
+    "Frase": "O Rei Macaco",
+    "Codigo": 110,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Xayah",
+    "Rota": "ADC",
+    "Frase": "A Rebelde",
+    "Codigo": 111,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Xin Zhao",
+    "Rota": "Selva",
+    "Frase": "O General De Demacia",
+    "Codigo": 112,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Yuumi",
+    "Rota": "Suporte",
+    "Frase": "A Gata Mágica",
+    "Codigo": 113,
+    "Funcao": "Suporte",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Yone",
+    "Rota": "Mid",
+    "Frase": "O Inesquecido",
+    "Codigo": 114,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Yasuo",
+    "Rota": "Mid",
+    "Frase": "O Imperdoável",
+    "Codigo": 115,
+    "Funcao": "Lutador",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "AD",
+    "Nome": "Zed",
+    "Rota": "Meio",
+    "Frase": "O Mestre das Sombras",
+    "Codigo": 116,
+    "Funcao": "Assassino",
+    "Alcance": "P"
+  },
+  {
+    "Dano": "MM",
+    "Nome": "Zeri",
+    "Rota": "ADC",
+    "Frase": "A Faísca de Zaun",
+    "Codigo": 117,
+    "Funcao": "Atirador",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Ziggs",
+    "Rota": "Mid",
+    "Frase": "O Especialista Em Hexplosivos",
+    "Codigo": 118,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Zoe",
+    "Rota": "Meio",
+    "Frase": "O Aspecto Do Crepúsculo",
+    "Codigo": 119,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Zyra",
+    "Rota": "Mid",
+    "Frase": "A Ascensão Dos Espinhos",
+    "Codigo": 120,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  }
+]

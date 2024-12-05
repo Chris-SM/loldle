@@ -1,0 +1,54 @@
+[
+    {
+        "ID": 1,
+        "Nome": "Encantamento de Gárgula"
+    },
+    {
+        "ID": 2,
+        "Nome": "Encantamento de Repulsor"
+    },
+    {
+        "ID": 3,
+        "Nome": "Encantamento de Meteoro"
+    },
+    {
+        "ID": 4,
+        "Nome": "Encantamento de Magnetron"
+    },
+    {
+        "ID": 5,
+        "Nome": "Encantamento de Véu"
+    },
+    {
+        "ID": 6,
+        "Nome": "Encantamento Revitalizante"
+    },
+    {
+        "ID": 7,
+        "Nome": "Encantamento Glorioso"
+    },
+    {
+        "ID": 8,
+        "Nome": "Encantamento de Medalhão"
+    },
+    {
+        "ID": 9,
+        "Nome": "Encantamento do Protocinturão"
+    },
+    {
+        "ID": 10,
+        "Nome": "Encantamento de Mercúrio"
+    },
+    {
+        "ID": 11,
+        "Nome": "Hidra Voraz"
+    },
+    {
+        "ID": 12,
+        "Nome": "Encantamento de Estase"
+    },
+    {
+        "ID": 13,
+        "Nome": "Teletransporte Encantado"
+    }
+]

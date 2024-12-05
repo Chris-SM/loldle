@@ -1,0 +1,308 @@
+[
+    {
+        "ID": 1,
+        "Nome": "Eletrocutar",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 2,
+        "Nome": "Aery",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 3,
+        "Nome": "Ímpeto Gradual",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 4,
+        "Nome": "Conquistador",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 5,
+        "Nome": "Agilidade Nos Pés",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 6,
+        "Nome": "Fortalecimento",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 7,
+        "Nome": "Aperto Dos Mortos-Vivos",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 8,
+        "Nome": "Pós-Choque",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 9,
+        "Nome": "Ritmo Fatal",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 10,
+        "Nome": "Primeiro Ataque",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 11,
+        "Nome": "Aprimoramento Glacial",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 12,
+        "Nome": "Cometa Arcano",
+        "Ordem": "PR",
+        "Classe": null
+    },
+    {
+        "ID": 13,
+        "Nome": "Chamsucar",
+        "Ordem": "S1",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 14,
+        "Nome": "Golpe De Escudo",
+        "Ordem": "S1",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 15,
+        "Nome": "Impacto Repentino",
+        "Ordem": "S1",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 16,
+        "Nome": "Onda Psíquica",
+        "Ordem": "S1",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 17,
+        "Nome": "Ataque Fortalecido",
+        "Ordem": "S2",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 18,
+        "Nome": "Golpe Desleal",
+        "Ordem": "S2",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 19,
+        "Nome": "Marca Dos Fracos",
+        "Ordem": "S2",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 20,
+        "Nome": "Coleção De Olhos",
+        "Ordem": "S3",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 21,
+        "Nome": "Caça Ardilosa",
+        "Ordem": "S3",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 22,
+        "Nome": "Sentinela Zumbi",
+        "Ordem": "S3",
+        "Classe": "Dominação"
+    },
+    {
+        "ID": 23,
+        "Nome": "Brutal",
+        "Ordem": "S1",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 24,
+        "Nome": "Triunfo",
+        "Ordem": "S1",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 25,
+        "Nome": "Tempestade Crescente",
+        "Ordem": "S1",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 26,
+        "Nome": "Até A Morte",
+        "Ordem": "S2",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 27,
+        "Nome": "Mata-Gigantes",
+        "Ordem": "S2",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 28,
+        "Nome": "Golpe De Misericórdia",
+        "Ordem": "S2",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 29,
+        "Nome": "Lenda: Espontaneidade",
+        "Ordem": "S3",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 30,
+        "Nome": "Lenda: Tenacidade",
+        "Ordem": "S3",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 31,
+        "Nome": "Lenda: Linhagem",
+        "Ordem": "S3",
+        "Classe": "Precisão"
+    },
+    {
+        "ID": 32,
+        "Nome": "Fonte Da Vida",
+        "Ordem": "S1",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 33,
+        "Nome": "Coragem De Colosso",
+        "Ordem": "S1",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 34,
+        "Nome": "Orbe Anulador",
+        "Ordem": "S1",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 35,
+        "Nome": "Ventos Revigorantes",
+        "Ordem": "S2",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 36,
+        "Nome": "Lealdade",
+        "Ordem": "S2",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 37,
+        "Nome": "Osso Revestido",
+        "Ordem": "S2",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 38,
+        "Nome": "Crescimento Excessivo",
+        "Ordem": "S3",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 39,
+        "Nome": "Revitalizar",
+        "Ordem": "S3",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 40,
+        "Nome": "Perseverança",
+        "Ordem": "S3",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 41,
+        "Nome": "Chacina",
+        "Ordem": "S3",
+        "Classe": "Determinação"
+    },
+    {
+        "ID": 42,
+        "Nome": "Guloseima",
+        "Ordem": "S1",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 43,
+        "Nome": "Flash Hextec",
+        "Ordem": "S1",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 44,
+        "Nome": "Criação De Item",
+        "Ordem": "S1",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 45,
+        "Nome": "Trancendência",
+        "Ordem": "S2",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 46,
+        "Nome": "Mercado Do Futuro",
+        "Ordem": "S2",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 47,
+        "Nome": "Cria-Trilhas",
+        "Ordem": "S2",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 48,
+        "Nome": "Manto De Nimbus",
+        "Ordem": "S3",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 49,
+        "Nome": "Demolir",
+        "Ordem": "S3",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 50,
+        "Nome": "Faixa De Fluxo De Mana",
+        "Ordem": "S3",
+        "Classe": "Inspiração"
+    },
+    {
+        "ID": 51,
+        "Nome": "Fertilizante Ixtalanse",
+        "Ordem": "S3",
+        "Classe": "Inspiração"
+    }
+]

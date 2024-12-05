@@ -1,0 +1,392 @@
+[
+    {
+        "ID": 1,
+        "Dano": "MM",
+        "Nome": "Dente De Na''Shor"
+    },
+    {
+        "ID": 2,
+        "Dano": "AD",
+        "Nome": "Sedenta Por Sangue"
+    },
+    {
+        "ID": 3,
+        "Dano": "MM",
+        "Nome": "Detonador Magnético"
+    },
+    {
+        "ID": 4,
+        "Dano": "AD",
+        "Nome": "Espada Do Rei-Destruído"
+    },
+    {
+        "ID": 5,
+        "Dano": "MM",
+        "Nome": "Furacão De Runnan"
+    },
+    {
+        "ID": 6,
+        "Dano": "AD",
+        "Nome": "Lâmina Fantasma De Youmuu"
+    },
+    {
+        "ID": 7,
+        "Dano": "AD",
+        "Nome": "Lâmina De Draktharr"
+    },
+    {
+        "ID": 8,
+        "Dano": "AD",
+        "Nome": "Gume Do Infinito"
+    },
+    {
+        "ID": 9,
+        "Dano": "AD",
+        "Nome": "Lembrete Mortal"
+    },
+    {
+        "ID": 10,
+        "Dano": "AD",
+        "Nome": "Cutelo Negro"
+    },
+    {
+        "ID": 11,
+        "Dano": "AD",
+        "Nome": "Manamune"
+    },
+    {
+        "ID": 12,
+        "Dano": "AD",
+        "Nome": "Força Da Trindade"
+    },
+    {
+        "ID": 13,
+        "Dano": "AD",
+        "Nome": "Mandibula De Malmortius"
+    },
+    {
+        "ID": 14,
+        "Dano": "AD",
+        "Nome": "Dança Da Morte"
+    },
+    {
+        "ID": 15,
+        "Dano": "AD",
+        "Nome": "Dançarina Fantasma"
+    },
+    {
+        "ID": 16,
+        "Dano": "AP",
+        "Nome": "Limite Da Razão"
+    },
+    {
+        "ID": 17,
+        "Dano": "AD",
+        "Nome": "Colhedor De Essência"
+    },
+    {
+        "ID": 18,
+        "Dano": "AD",
+        "Nome": "Chuva De Canivete"
+    },
+    {
+        "ID": 19,
+        "Dano": "AD",
+        "Nome": "Rancor De Serylda"
+    },
+    {
+        "ID": 20,
+        "Dano": "AP",
+        "Nome": "Lâmina Impetuosa Solari"
+    },
+    {
+        "ID": 21,
+        "Dano": "AD",
+        "Nome": "Adagas Rápidas Navori"
+    },
+    {
+        "ID": 22,
+        "Dano": "AD",
+        "Nome": "Limiar Da Noite"
+    },
+    {
+        "ID": 23,
+        "Dano": "AD",
+        "Nome": "Ruptor Divino"
+    },
+    {
+        "ID": 24,
+        "Dano": "AD",
+        "Nome": "Presa Da Serpente"
+    },
+    {
+        "ID": 25,
+        "Dano": "AD",
+        "Nome": "Serrespada Quimiopunk"
+    },
+    {
+        "ID": 26,
+        "Dano": "AD",
+        "Nome": "Arco-Escudo Imortal"
+    },
+    {
+        "ID": 27,
+        "Dano": "AD",
+        "Nome": "A Coletora"
+    },
+    {
+        "ID": 28,
+        "Dano": "AD",
+        "Nome": "Sinal De Sterak"
+    },
+    {
+        "ID": 29,
+        "Dano": "AD",
+        "Nome": "Lança De Shojin"
+    },
+    {
+        "ID": 30,
+        "Dano": "AD",
+        "Nome": "Hidra Titânica"
+    },
+    {
+        "ID": 31,
+        "Dano": "AD",
+        "Nome": "Céu Dididido"
+    },
+    {
+        "ID": 32,
+        "Dano": "AD",
+        "Nome": "Terminus"
+    },
+    {
+        "ID": 33,
+        "Dano": "AD",
+        "Nome": "Eclipse"
+    },
+    {
+        "ID": 34,
+        "Dano": "AD",
+        "Nome": "Anjo Da Guarda"
+    },
+    {
+        "ID": 35,
+        "Dano": "AP",
+        "Nome": "Eco De Luden"
+    },
+    {
+        "ID": 36,
+        "Dano": "AP",
+        "Nome": "Morellonomicon"
+    },
+    {
+        "ID": 37,
+        "Dano": "AP",
+        "Nome": "Coroa Da Rainha Despedaçada"
+    },
+    {
+        "ID": 38,
+        "Dano": "AP",
+        "Nome": "Capuz Da Morte De Rabadon"
+    },
+    {
+        "ID": 39,
+        "Dano": "AP",
+        "Nome": "Centro De Cristal De Rylai"
+    },
+    {
+        "ID": 40,
+        "Dano": "AP",
+        "Nome": "Tormento De Liandry"
+    },
+    {
+        "ID": 41,
+        "Dano": "AP",
+        "Nome": "Bastão Das Eras"
+    },
+    {
+        "ID": 42,
+        "Dano": "AP",
+        "Nome": "Perdição De Lich"
+    },
+    {
+        "ID": 43,
+        "Dano": "AP",
+        "Nome": "Cajado Do Arcanjo"
+    },
+    {
+        "ID": 44,
+        "Dano": "AP",
+        "Nome": "Turíbulo Ardente"
+    },
+    {
+        "ID": 45,
+        "Dano": "AP",
+        "Nome": "Eco Harmônico"
+    },
+    {
+        "ID": 46,
+        "Dano": "AP",
+        "Nome": "Ladrão De Almas"
+    },
+    {
+        "ID": 47,
+        "Dano": "AP",
+        "Nome": "Orbe Do Infinito"
+    },
+    {
+        "ID": 48,
+        "Dano": "AP",
+        "Nome": "Refletor Cristalino"
+    },
+    {
+        "ID": 49,
+        "Dano": "AP",
+        "Nome": "Cajado Aquafluxo"
+    },
+    {
+        "ID": 50,
+        "Dano": "AP",
+        "Nome": "Tridente Da Oceânide"
+    },
+    {
+        "ID": 51,
+        "Dano": "AP",
+        "Nome": "Mandato Imperial"
+    },
+    {
+        "ID": 52,
+        "Dano": "AP",
+        "Nome": "Ímpeto Cósmico"
+    },
+    {
+        "ID": 53,
+        "Dano": "AP",
+        "Nome": "Criafendas"
+    },
+    {
+        "ID": 54,
+        "Dano": "AP",
+        "Nome": "Foco Do Horizonte"
+    },
+    {
+        "ID": 55,
+        "Dano": "AP",
+        "Nome": "Projetor Psíquico"
+    },
+    {
+        "ID": 56,
+        "Dano": "MM",
+        "Nome": "Égide De Fogo Solar "
+    },
+    {
+        "ID": 57,
+        "Dano": "MM",
+        "Nome": "Semblante Espiritual"
+    },
+    {
+        "ID": 58,
+        "Dano": "MM",
+        "Nome": "Presságio De Randuin"
+    },
+    {
+        "ID": 59,
+        "Dano": "MM",
+        "Nome": "Armadura De Espinhos"
+    },
+    {
+        "ID": 60,
+        "Dano": "MM",
+        "Nome": "Armadura De Warmog"
+    },
+    {
+        "ID": 61,
+        "Dano": "MM",
+        "Nome": "Manopla Dos Glacinatas"
+    },
+    {
+        "ID": 62,
+        "Dano": "MM",
+        "Nome": "Couraça Do Defunto"
+    },
+    {
+        "ID": 63,
+        "Dano": "MM",
+        "Nome": "Máscara Abissal"
+    },
+    {
+        "ID": 64,
+        "Dano": "MM",
+        "Nome": "Convergência De Zeke"
+    },
+    {
+        "ID": 65,
+        "Dano": "MM",
+        "Nome": "Juramento Do Protetor"
+    },
+    {
+        "ID": 66,
+        "Dano": "MM",
+        "Nome": "Aproximação Invernal"
+    },
+    {
+        "ID": 67,
+        "Dano": "MM",
+        "Nome": "Força Da Natureza"
+    },
+    {
+        "ID": 68,
+        "Dano": "MM",
+        "Nome": "Coração Congelado"
+    },
+    {
+        "ID": 69,
+        "Dano": "MM",
+        "Nome": "Manto Da Aurora"
+    },
+    {
+        "ID": 70,
+        "Dano": "MM",
+        "Nome": "Duplaguarda De Amaranto"
+    },
+    {
+        "ID": 71,
+        "Dano": "MM",
+        "Nome": "Manto Da Meia-Noite"
+    },
+    {
+        "ID": 72,
+        "Dano": "MM",
+        "Nome": "Coroa Calcinante"
+    },
+    {
+        "ID": 73,
+        "Dano": "MM",
+        "Nome": "Coração De Aço"
+    },
+    {
+        "ID": 74,
+        "Dano": "MM",
+        "Nome": "Redenção"
+    },
+    {
+        "ID": 75,
+        "Dano": "MM",
+        "Nome": "Moeda Antiga"
+    },
+    {
+        "ID": 76,
+        "Dano": "MM",
+        "Nome": "Foice Espectral"
+    },
+    {
+        "ID": 77,
+        "Dano": "MM",
+        "Nome": "Escudo Relicário"
+    },
+    {
+        "ID": 78,
+        "Dano": "AP",
+        "Nome": "Ladrão de Almas de Mejai"
+    }
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Index</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lol Randomizer</h1>
+        </header>
+        
+        <section class="chmpion">
+            <img src="" alt="Pyke" id="image" class="champion-image">
+            <h2 id="name" class="champion-name">Pyke</h2>
+            <h4 id="frase" class="champion-title">O Estripador das Águas Sangrentas</h4>        
+        <button onclick="rerollChampion()">Reroll</button>
+        </section>
+
+        <section class="items">
+            <h3>Items</h3>
+            <div class="items-grid">
+                <img src="sdjksalda" alt="Item 1" id="Item1">
+                <img src="sdjksalda" alt="Item 2" id="Item2">
+                <img src="sdjksalda" alt="Item 3" id="Item3">
+                <img src="sdjksalda" alt="Item 4" id="Item4">
+                <img src="sdjksalda" alt="Item 5" id="Item5">
+                <img id="bota" src="sdjksalda" alt="Item 6" >
+            </div>
+        </section>
+        <section class="runas">
+            <h3>Runas</h3>
+            <div class="runes-grid">
+                <img src="sdjksalda" alt="Rune 1" id="Runa1" style="border-radius: 50%;" class="Runa"><br>
+                <img src="sdjksalda" alt="Rune 2" id="Runa2" style="border-radius: 50%;" class="Runa">
+                <img src="sdjksalda" alt="Rune 3" id="Runa3" style="border-radius: 50%;" class="Runa">
+                <img src="sdjksalda" alt="Rune 4" id="Runa4" style="border-radius: 50%;" class="Runa">
+                <img src="sdjksalda" alt="Rune 5" id="Runa5" style="border-radius: 50%;" class="Runa">
+            </div>
+        </section>
+    </div>
+</body>
+<script src="machine.js" onload="rerollChampion()">
+</script>
+<style>
+    
+  .Runa{
+    width: 10vh;
+    height: 10vh;
+  }
+</style>
+</html>

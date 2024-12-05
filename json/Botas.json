@@ -1,0 +1,42 @@
+[
+    {
+        "ID": 1,
+        "Nome": "Grevas Vorazes",
+        "Classe": "AD"
+    },
+    {
+        "ID": 2,
+        "Nome": "Grevas do Berserker",
+        "Classe": "AD"
+    },
+    {
+        "ID": 3,
+        "Nome": "Passos de Mercúrio",
+        "Classe": "MM"
+    },
+    {
+        "ID": 4,
+        "Nome": "Botas Galvanizadas de Aço",
+        "Classe": "MM"
+    },
+    {
+        "ID": 5,
+        "Nome": "Botas Ionianas de Lucidez",
+        "Classe": "MM"
+    },
+    {
+        "ID": 6,
+        "Nome": "Botas de Mana",
+        "Classe": "AP"
+    },
+    {
+        "ID": 7,
+        "Nome": "Botas do Dinamismo",
+        "Classe": "AD"
+    },
+    {
+        "ID": 8,
+        "Nome": "Botas da Velocidade",
+        "Classe": "MM"
+    }
+]
