@@ -23,8 +23,26 @@ function rerollChampion() {
     });
 }
 
+// "ID": 77,
+// "Nome": "Escudo Relicário"
+// "ID": 75,
+// "Nome": "Moeda Antiga"
+// "ID": 76,
+// "Nome": "Foice Espectral"
+
+
+// "ID": 66,
+// "Nome": "Aproximação Invernal"
+// "ID": 43,
+// "Nome": "Cajado Do Arcanjo"
+// "ID": 11,
+// "Nome": "Manamune"
+
 
 async function item(Dano, Alcan) {
+  var itemSuEs = false;
+  var manaItem = false;
+  var Terminus = false;
   var Escolhidos = [];
   let Bescolhido;
   var Fescolhido;
@@ -38,16 +56,22 @@ async function item(Dano, Alcan) {
       Bescolhido = Math.round(Math.random() * 77);
       // console.log(Bescolhido);
       let classe = Item[Bescolhido]["Dano"];
+      console.log(Bescolhido);
+      console.log(Item[Bescolhido]["Nome"]);
       if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
-        if (!(Escolhidos.includes(78) && Bescolhido+1 == 77)|| !(Escolhidos.includes(78) && Bescolhido+1 == 76) || !(Escolhidos.includes(77) && Bescolhido+1 == 78)|| !(Escolhidos.includes(77) && Bescolhido+1 == 76)|| !(Escolhidos.includes(76) && Bescolhido+1 == 77)|| !(Escolhidos.includes(76) && Bescolhido+1 == 78)) {
-          if (!(Escolhidos.includes(66) && Bescolhido+1 == 43)|| !(Escolhidos.includes(66) && Bescolhido+1 == 11) || !(Escolhidos.includes(43) && Bescolhido+1 == 66)|| !(Escolhidos.includes(43) && Bescolhido+1 == 11)|| !(Escolhidos.includes(11) && Bescolhido+1 == 43)|| !(Escolhidos.includes(11) && Bescolhido+1 == 66)) {
-          
+        if (!(itemSuEs && (Bescolhido+1 == 75 || Bescolhido+1 == 76 || Bescolhido+1 == 74))) {
+          if(Bescolhido+1 == 75 || Bescolhido+1 == 76 || Bescolhido+1 == 74)
+          itemSuEs = true;
+          if (!(manaItem && (Bescolhido+1 == 66 || Bescolhido+1 == 43 || Bescolhido+1 == 11))) {
+            if(Bescolhido+1 == 66 || Bescolhido+1 == 43 || Bescolhido+1 == 11)
+            manaItem = true;
+
           if (!(Alcan == "P" && Item[Bescolhido]["ID"] == 5)) {
             // if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
             //   if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2)) {
             //     if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3)) {
             if ((Dano == classe || "MM" == Dano || classe == "MM")) {
-              console.log(classe, Item[Bescolhido]["ID"]);
+              // console.log(classe, Item[Bescolhido]["ID"]);
               var foto = "img/Itens/Item(" + Item[Bescolhido]["ID"] + ").jpg";
               // console.log(foto);
               document.getElementById("Item" + x).src = foto;
@@ -67,7 +91,7 @@ async function item(Dano, Alcan) {
       }
       }
     }
-    // alert("a");
+  console.log(Escolhidos);
   }
 }
 
