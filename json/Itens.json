@@ -2,387 +2,464 @@
     {
         "ID": 1,
         "Dano": "MM",
-        "Nome": "Dente De Na''Shor"
+        "Nome": "Dente De Na''Shor",
+        "Serie": ""
     },
     {
         "ID": 2,
         "Dano": "AD",
-        "Nome": "Sedenta Por Sangue"
+        "Nome": "Sedenta Por Sangue",
+        "Serie": ""
     },
     {
         "ID": 3,
         "Dano": "MM",
-        "Nome": "Detonador Magnético"
+        "Nome": "Detonador Magnético",
+        "Serie": ""
     },
     {
         "ID": 4,
         "Dano": "AD",
-        "Nome": "Espada Do Rei-Destruído"
+        "Nome": "Espada Do Rei-Destruído",
+        "Serie": ""
     },
     {
         "ID": 5,
         "Dano": "MM",
-        "Nome": "Furacão De Runnan"
+        "Nome": "Furacão De Runnan",
+        "Serie": "Ranged"
     },
     {
         "ID": 6,
         "Dano": "AD",
-        "Nome": "Lâmina Fantasma De Youmuu"
+        "Nome": "Lâmina Fantasma De Youmuu",
+        "Serie": ""
     },
     {
         "ID": 7,
         "Dano": "AD",
-        "Nome": "Lâmina De Draktharr"
+        "Nome": "Lâmina De Draktharr",
+        "Serie": ""
     },
     {
         "ID": 8,
         "Dano": "AD",
-        "Nome": "Gume Do Infinito"
+        "Nome": "Gume Do Infinito",
+        "Serie": ""
     },
     {
         "ID": 9,
         "Dano": "AD",
-        "Nome": "Lembrete Mortal"
+        "Nome": "Lembrete Mortal",
+        "Serie": ""
     },
     {
         "ID": 10,
         "Dano": "AD",
-        "Nome": "Cutelo Negro"
+        "Nome": "Cutelo Negro",
+        "Serie": ""
     },
     {
         "ID": 11,
         "Dano": "AD",
-        "Nome": "Manamune"
+        "Nome": "Manamune",
+        "Serie": "Gota"
     },
     {
         "ID": 12,
         "Dano": "AD",
-        "Nome": "Força Da Trindade"
+        "Nome": "Força Da Trindade",
+        "Serie": ""
     },
     {
         "ID": 13,
         "Dano": "AD",
-        "Nome": "Mandibula De Malmortius"
+        "Nome": "Mandibula De Malmortius",
+        "Serie": ""
     },
     {
         "ID": 14,
         "Dano": "AD",
-        "Nome": "Dança Da Morte"
+        "Nome": "Dança Da Morte",
+        "Serie": ""
     },
     {
         "ID": 15,
         "Dano": "AD",
-        "Nome": "Dançarina Fantasma"
+        "Nome": "Dançarina Fantasma",
+        "Serie": ""
     },
     {
         "ID": 16,
         "Dano": "AP",
-        "Nome": "Limite Da Razão"
+        "Nome": "Limite Da Razão",
+        "Serie": ""
     },
     {
         "ID": 17,
         "Dano": "AD",
-        "Nome": "Colhedor De Essência"
+        "Nome": "Colhedor De Essência",
+        "Serie": ""
     },
     {
         "ID": 18,
         "Dano": "AD",
-        "Nome": "Chuva De Canivete"
+        "Nome": "Chuva De Canivete",
+        "Serie": ""
     },
     {
         "ID": 19,
         "Dano": "AD",
-        "Nome": "Rancor De Serylda"
+        "Nome": "Rancor De Serylda",
+        "Serie": ""
     },
     {
         "ID": 20,
         "Dano": "AP",
-        "Nome": "Lâmina Impetuosa Solari"
+        "Nome": "Lâmina Impetuosa Solari",
+        "Serie": ""
     },
     {
         "ID": 21,
         "Dano": "AD",
-        "Nome": "Adagas Rápidas Navori"
+        "Nome": "Adagas Rápidas Navori",
+        "Serie": ""
     },
     {
         "ID": 22,
         "Dano": "AD",
-        "Nome": "Limiar Da Noite"
+        "Nome": "Limiar Da Noite",
+        "Serie": ""
     },
     {
         "ID": 23,
         "Dano": "AD",
-        "Nome": "Ruptor Divino"
+        "Nome": "Ruptor Divino",
+        "Serie": ""
     },
     {
         "ID": 24,
         "Dano": "AD",
-        "Nome": "Presa Da Serpente"
+        "Nome": "Presa Da Serpente",
+        "Serie": ""
     },
     {
         "ID": 25,
         "Dano": "AD",
-        "Nome": "Serrespada Quimiopunk"
+        "Nome": "Serrespada Quimiopunk",
+        "Serie": ""
     },
     {
         "ID": 26,
         "Dano": "AD",
-        "Nome": "Arco-Escudo Imortal"
+        "Nome": "Arco-Escudo Imortal",
+        "Serie": ""
     },
     {
         "ID": 27,
         "Dano": "AD",
-        "Nome": "A Coletora"
+        "Nome": "A Coletora",
+        "Serie": ""
     },
     {
         "ID": 28,
         "Dano": "AD",
-        "Nome": "Sinal De Sterak"
+        "Nome": "Sinal De Sterak",
+        "Serie": ""
     },
     {
         "ID": 29,
         "Dano": "AD",
-        "Nome": "Lança De Shojin"
+        "Nome": "Lança De Shojin",
+        "Serie": ""
     },
     {
         "ID": 30,
         "Dano": "AD",
-        "Nome": "Hidra Titânica"
+        "Nome": "Hidra Titânica",
+        "Serie": ""
     },
     {
         "ID": 31,
         "Dano": "AD",
-        "Nome": "Céu Dididido"
+        "Nome": "Céu Dididido",
+        "Serie": ""
     },
     {
         "ID": 32,
         "Dano": "AD",
-        "Nome": "Terminus"
+        "Nome": "Terminus",
+        "Serie": ""
     },
     {
         "ID": 33,
         "Dano": "AD",
-        "Nome": "Eclipse"
+        "Nome": "Eclipse",
+        "Serie": ""
     },
     {
         "ID": 34,
         "Dano": "AD",
-        "Nome": "Anjo Da Guarda"
+        "Nome": "Anjo Da Guarda",
+        "Serie": ""
     },
     {
         "ID": 35,
         "Dano": "AP",
-        "Nome": "Eco De Luden"
+        "Nome": "Eco De Luden",
+        "Serie": ""
     },
     {
         "ID": 36,
         "Dano": "AP",
-        "Nome": "Morellonomicon"
+        "Nome": "Morellonomicon",
+        "Serie": ""
     },
     {
         "ID": 37,
         "Dano": "AP",
-        "Nome": "Coroa Da Rainha Despedaçada"
+        "Nome": "Coroa Da Rainha Despedaçada",
+        "Serie": ""
     },
     {
         "ID": 38,
         "Dano": "AP",
-        "Nome": "Capuz Da Morte De Rabadon"
+        "Nome": "Capuz Da Morte De Rabadon",
+        "Serie": ""
     },
     {
         "ID": 39,
         "Dano": "AP",
-        "Nome": "Centro De Cristal De Rylai"
+        "Nome": "Centro De Cristal De Rylai",
+        "Serie": ""
     },
     {
         "ID": 40,
         "Dano": "AP",
-        "Nome": "Tormento De Liandry"
+        "Nome": "Tormento De Liandry",
+        "Serie": ""
     },
     {
         "ID": 41,
         "Dano": "AP",
-        "Nome": "Bastão Das Eras"
+        "Nome": "Bastão Das Eras",
+        "Serie": ""
     },
     {
         "ID": 42,
         "Dano": "AP",
-        "Nome": "Perdição De Lich"
+        "Nome": "Perdição De Lich",
+        "Serie": ""
     },
     {
         "ID": 43,
         "Dano": "AP",
-        "Nome": "Cajado Do Arcanjo"
+        "Nome": "Cajado Do Arcanjo",
+        "Serie": ""
     },
     {
         "ID": 44,
         "Dano": "AP",
-        "Nome": "Turíbulo Ardente"
+        "Nome": "Turíbulo Ardente",
+        "Serie": ""
     },
     {
         "ID": 45,
         "Dano": "AP",
-        "Nome": "Eco Harmônico"
+        "Nome": "Eco Harmônico",
+        "Serie": ""
     },
     {
         "ID": 46,
         "Dano": "AP",
-        "Nome": "Ladrão De Almas"
+        "Nome": "Ladrão De Almas",
+        "Serie": ""
     },
     {
         "ID": 47,
         "Dano": "AP",
-        "Nome": "Orbe Do Infinito"
+        "Nome": "Orbe Do Infinito",
+        "Serie": ""
     },
     {
         "ID": 48,
         "Dano": "AP",
-        "Nome": "Refletor Cristalino"
+        "Nome": "Refletor Cristalino",
+        "Serie": ""
     },
     {
         "ID": 49,
         "Dano": "AP",
-        "Nome": "Cajado Aquafluxo"
+        "Nome": "Cajado Aquafluxo",
+        "Serie": ""
     },
     {
         "ID": 50,
         "Dano": "AP",
-        "Nome": "Tridente Da Oceânide"
+        "Nome": "Tridente Da Oceânide",
+        "Serie": ""
     },
     {
         "ID": 51,
         "Dano": "AP",
-        "Nome": "Mandato Imperial"
+        "Nome": "Mandato Imperial",
+        "Serie": ""
     },
     {
         "ID": 52,
         "Dano": "AP",
-        "Nome": "Ímpeto Cósmico"
+        "Nome": "Ímpeto Cósmico",
+        "Serie": ""
     },
     {
         "ID": 53,
         "Dano": "AP",
-        "Nome": "Criafendas"
+        "Nome": "Criafendas",
+        "Serie": ""
     },
     {
         "ID": 54,
         "Dano": "AP",
-        "Nome": "Foco Do Horizonte"
+        "Nome": "Foco Do Horizonte",
+        "Serie": ""
     },
     {
         "ID": 55,
         "Dano": "AP",
-        "Nome": "Projetor Psíquico"
+        "Nome": "Projetor Psíquico",
+        "Serie": ""
     },
     {
         "ID": 56,
         "Dano": "MM",
-        "Nome": "Égide De Fogo Solar "
+        "Nome": "Égide De Fogo Solar ",
+        "Serie": ""
     },
     {
         "ID": 57,
         "Dano": "MM",
-        "Nome": "Semblante Espiritual"
+        "Nome": "Semblante Espiritual",
+        "Serie": ""
     },
     {
         "ID": 58,
         "Dano": "MM",
-        "Nome": "Presságio De Randuin"
+        "Nome": "Presságio De Randuin",
+        "Serie": ""
     },
     {
         "ID": 59,
         "Dano": "MM",
-        "Nome": "Armadura De Espinhos"
+        "Nome": "Armadura De Espinhos",
+        "Serie": ""
     },
     {
         "ID": 60,
         "Dano": "MM",
-        "Nome": "Armadura De Warmog"
+        "Nome": "Armadura De Warmog",
+        "Serie": ""
     },
     {
         "ID": 61,
         "Dano": "MM",
-        "Nome": "Manopla Dos Glacinatas"
+        "Nome": "Manopla Dos Glacinatas",
+        "Serie": ""
     },
     {
         "ID": 62,
         "Dano": "MM",
-        "Nome": "Couraça Do Defunto"
+        "Nome": "Couraça Do Defunto",
+        "Serie": ""
     },
     {
         "ID": 63,
         "Dano": "MM",
-        "Nome": "Máscara Abissal"
+        "Nome": "Máscara Abissal",
+        "Serie": ""
     },
     {
         "ID": 64,
         "Dano": "MM",
-        "Nome": "Convergência De Zeke"
+        "Nome": "Convergência De Zeke",
+        "Serie": ""
     },
     {
         "ID": 65,
         "Dano": "MM",
-        "Nome": "Juramento Do Protetor"
+        "Nome": "Juramento Do Protetor",
+        "Serie": ""
     },
     {
         "ID": 66,
         "Dano": "MM",
-        "Nome": "Aproximação Invernal"
+        "Nome": "Aproximação Invernal",
+        "Serie": "Gota"
     },
     {
         "ID": 67,
         "Dano": "MM",
-        "Nome": "Força Da Natureza"
+        "Nome": "Força Da Natureza",
+        "Serie": ""
     },
     {
         "ID": 68,
         "Dano": "MM",
-        "Nome": "Coração Congelado"
+        "Nome": "Coração Congelado",
+        "Serie": ""
     },
     {
         "ID": 69,
         "Dano": "MM",
-        "Nome": "Manto Da Aurora"
+        "Nome": "Manto Da Aurora",
+        "Serie": ""
     },
     {
         "ID": 70,
         "Dano": "MM",
-        "Nome": "Duplaguarda De Amaranto"
+        "Nome": "Duplaguarda De Amaranto",
+        "Serie": ""
     },
     {
         "ID": 71,
         "Dano": "MM",
-        "Nome": "Manto Da Meia-Noite"
+        "Nome": "Manto Da Meia-Noite",
+        "Serie": ""
     },
     {
         "ID": 72,
         "Dano": "MM",
-        "Nome": "Coroa Calcinante"
+        "Nome": "Coroa Calcinante",
+        "Serie": ""
     },
     {
         "ID": 73,
         "Dano": "MM",
-        "Nome": "Coração De Aço"
+        "Nome": "Coração De Aço",
+        "Serie": ""
     },
     {
         "ID": 74,
         "Dano": "MM",
-        "Nome": "Redenção"
+        "Nome": "Redenção",
+        "Serie": ""
     },
     {
         "ID": 75,
         "Dano": "MM",
-        "Nome": "Moeda Antiga"
+        "Nome": "Moeda Antiga",
+        "Serie": "Sup"
     },
     {
         "ID": 76,
         "Dano": "MM",
-        "Nome": "Foice Espectral"
+        "Nome": "Foice Espectral",
+        "Serie": "Sup"
     },
     {
         "ID": 77,
         "Dano": "MM",
-        "Nome": "Escudo Relicário"
+        "Nome": "Escudo Relicário",
+        "Serie": "Sup"
     },
     {
         "ID": 78,

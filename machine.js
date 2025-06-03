@@ -56,17 +56,17 @@ async function item(Dano, Alcan) {
       Bescolhido = Math.round(Math.random() * 77);
       // console.log(Bescolhido);
       let classe = Item[Bescolhido]["Dano"];
-      console.log(Bescolhido);
-      console.log(Item[Bescolhido]["Nome"]);
+      // console.log(Bescolhido);
+      // console.log(Item[Bescolhido]["Nome"]);
       if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
-        if (!(itemSuEs && (Bescolhido+1 == 75 || Bescolhido+1 == 76 || Bescolhido+1 == 74))) {
-          if(Bescolhido+1 == 75 || Bescolhido+1 == 76 || Bescolhido+1 == 74)
+        if (!(itemSuEs && Item[Bescolhido]["Serie"] == "Sup")) {
+          if(Item[Bescolhido]["Serie"] == "Sup")
           itemSuEs = true;
-          if (!(manaItem && (Bescolhido+1 == 66 || Bescolhido+1 == 43 || Bescolhido+1 == 11))) {
-            if(Bescolhido+1 == 66 || Bescolhido+1 == 43 || Bescolhido+1 == 11)
+          if (!(manaItem && Item[Bescolhido]["Serie"] == "Mana")) {
+            if(Item[Bescolhido]["Serie"] == "Mana")
             manaItem = true;
 
-          if (!(Alcan == "P" && Item[Bescolhido]["ID"] == 5)) {
+          if (!(Alcan == "P" && Item[Bescolhido]["Serie"] == Ranged)) {
             // if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
             //   if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2)) {
             //     if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3)) {
@@ -91,7 +91,7 @@ async function item(Dano, Alcan) {
       }
       }
     }
-  console.log(Escolhidos);
+  // console.log(Escolhidos);
   }
 }
 
