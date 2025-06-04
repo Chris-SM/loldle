@@ -255,7 +255,7 @@
         "ID": 43,
         "Dano": "AP",
         "Nome": "Cajado Do Arcanjo",
-        "Serie": ""
+        "Serie": "Gota"
     },
     {
         "ID": 44,
@@ -373,8 +373,8 @@
     },
     {
         "ID": 63,
-        "Dano": "MM",
-        "Nome": "Máscara Abissal",
+        "Dano": "AP",
+        "Nome": "Malevolencia",
         "Serie": ""
     },
     {

@@ -3,6 +3,8 @@ var tamanho = 5;
 var valorMaximo = 78;
 
 function rerollChampion() {
+  var ItenHabilitado = document.getElementById("SupItens").checked;
+  console.log(ItenHabilitado);
   let Escolhido = 1 + Math.round(Math.random() * 120);
   fetch("json/Campeos.json")
     .then((resposta) => resposta.json())
@@ -15,7 +17,7 @@ function rerollChampion() {
           document.getElementById("frase").innerHTML = json[fim]["Frase"];
           document.getElementById("bota").src = "";
           bota(json[fim]["Dano"]);
-          item(json[fim]["Dano"], json[fim]["Alcance"]);
+          item(json[fim]["Dano"], json[fim]["Alcance"],ItenHabilitado);
           RunaE();
           fim = 120;
         }
@@ -39,10 +41,15 @@ function rerollChampion() {
 // "Nome": "Manamune"
 
 
-async function item(Dano, Alcan) {
+
+
+async function item(Dano, Alcan,SemSup) {
   var itemSuEs = false;
+  if (SemSup) {
+    itemSuEs = true;
+  }
   var manaItem = false;
-  var Terminus = false;
+  // var Terminus = false; ver isso
   var Escolhidos = [];
   let Bescolhido;
   var Fescolhido;
@@ -51,22 +58,23 @@ async function item(Dano, Alcan) {
   for (let x = 1; x < 6;) {
     document.getElementById("Item" + x).src = "";
     var image = document.getElementById("Item" + x)
-    Fescolhido = true;
+    Fescolhido = true; 
     while (Fescolhido) {
-      Bescolhido = Math.round(Math.random() * 77);
+      Bescolhido = Math.round(Math.random() * Item.length)-1;
       // console.log(Bescolhido);
       let classe = Item[Bescolhido]["Dano"];
-      // console.log(Bescolhido);
-      // console.log(Item[Bescolhido]["Nome"]);
+      console.log(Bescolhido);
+      console.log(Item[Bescolhido]["Nome"]);
+      console.log(Item[Bescolhido]["Serie"]);
       if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
         if (!(itemSuEs && Item[Bescolhido]["Serie"] == "Sup")) {
-          if(Item[Bescolhido]["Serie"] == "Sup")
+          if(Item[Bescolhido]["Serie"] == "Mana")
           itemSuEs = true;
           if (!(manaItem && Item[Bescolhido]["Serie"] == "Mana")) {
             if(Item[Bescolhido]["Serie"] == "Mana")
             manaItem = true;
-
-          if (!(Alcan == "P" && Item[Bescolhido]["Serie"] == Ranged)) {
+          
+          if (!(Alcan == "P" && Item[Bescolhido]["ID"] == "Ranged")) {
             // if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
             //   if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2)) {
             //     if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3)) {
@@ -91,9 +99,71 @@ async function item(Dano, Alcan) {
       }
       }
     }
-  // console.log(Escolhidos);
+  console.log(Escolhidos);
   }
 }
+
+
+
+
+
+
+
+
+// async function item(Dano, Alcan) {
+//   var itemSuEs = false;
+//   var manaItem = false;
+//   var Escolhidos = [];
+//   let Bescolhido;
+//   var Fescolhido;
+//   var Reposta = await fetch("json/Itens.json");
+//   var Item = await Reposta.json();
+//   for (let x = 1; x < 6;) {
+//     document.getElementById("Item" + x).src = "";
+//     var image = document.getElementById("Item" + x)
+//     Fescolhido = true;
+//     while (Fescolhido) {
+//       Bescolhido = Math.round(Math.random() * 77);
+//       // console.log(Bescolhido);
+//       let classe = Item[Bescolhido]["Dano"];
+//       // console.log(Bescolhido);
+//       // console.log(Item[Bescolhido]["Nome"]);
+//       if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
+//         if (!(itemSuEs && Item[Bescolhido]["Serie"] == "Sup")) {
+//           if(Item[Bescolhido]["Serie"] == "Sup")
+//           itemSuEs = true;
+//           if (!(manaItem && Item[Bescolhido]["Serie"] == "Mana")) {
+//             if(Item[Bescolhido]["Serie"] == "Mana")
+//             manaItem = true;
+
+//           if (!(Alcan == "P" && Item[Bescolhido]["Serie"] == Ranged)) {
+//             // if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
+//             //   if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2)) {
+//             //     if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3)) {
+//             if ((Dano == classe || "MM" == Dano || classe == "MM")) {
+//               // console.log(classe, Item[Bescolhido]["ID"]);
+//               var foto = "img/Itens/Item(" + Item[Bescolhido]["ID"] + ").jpg";
+//               // console.log(foto);
+//               document.getElementById("Item" + x).src = foto;
+//               x++;
+//               Escolhidos.push(Item[Bescolhido]["ID"]);
+//             }
+//             // alert(document.getElementById("Item" + x).src+"Link | Antes"+image);
+//             if (document.getElementById("Item" + x).src != image && document.getElementById("Item" + x).src != null) {
+//               Fescolhido = false;
+//             }
+//             //     }
+//             //   }
+//             // }
+//             // }
+//           }
+//         }
+//       }
+//       }
+//     }
+//   // console.log(Escolhidos);
+//   }
+// }
 
 
 
