@@ -9,7 +9,7 @@ function rerollChampion() {
   fetch("json/Campeos.json")
     .then((resposta) => resposta.json())
     .then((json) => {
-      for (let fim = 0; fim < 120; fim++) {
+      for (let fim = 0; fim < json.length; fim++) {
         if (Escolhido == Number(json[fim]["Codigo"])) {
           var foto = "img/Champions/Champion(" + json[fim]["Codigo"] + ").jpeg";
           document.getElementById("image").src = foto;

@@ -374,7 +374,7 @@
     {
         "ID": 63,
         "Dano": "AP",
-        "Nome": "Malevolencia",
+        "Nome": "Malevolência",
         "Serie": ""
     },
     {
@@ -465,5 +465,10 @@
         "ID": 78,
         "Dano": "AP",
         "Nome": "Ladrão de Almas de Mejai"
+    },
+    {
+        "ID": 79,
+        "Dano": "MM",
+        "Nome": "Armadilha de Yordle"
     }
 ]
