@@ -60,40 +60,30 @@ async function item(Dano, Alcan,SemSup) {
     var image = document.getElementById("Item" + x)
     Fescolhido = true; 
     while (Fescolhido) {
-      Bescolhido = Math.round(Math.random() * Item.length)-1;
-      // console.log(Bescolhido);
+      console.log( Item.length);
+      Bescolhido = Math.round(Math.random() * Item.length);
       let classe = Item[Bescolhido]["Dano"];
       console.log(Bescolhido);
       console.log(Item[Bescolhido]["Nome"]);
       console.log(Item[Bescolhido]["Serie"]);
       if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
         if (!(itemSuEs && Item[Bescolhido]["Serie"] == "Sup")) {
-          if(Item[Bescolhido]["Serie"] == "Mana")
+          if(Item[Bescolhido]["Serie"] == "Sup")
           itemSuEs = true;
           if (!(manaItem && Item[Bescolhido]["Serie"] == "Mana")) {
             if(Item[Bescolhido]["Serie"] == "Mana")
             manaItem = true;
           
-          if (!(Alcan == "P" && Item[Bescolhido]["ID"] == "Ranged")) {
-            // if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
-            //   if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2)) {
-            //     if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3)) {
+          if (!(!(Alcan == "P") && Item[Bescolhido]["ID"] == "Ranged")) {
             if ((Dano == classe || "MM" == Dano || classe == "MM")) {
-              // console.log(classe, Item[Bescolhido]["ID"]);
               var foto = "img/Itens/Item(" + Item[Bescolhido]["ID"] + ").jpg";
-              // console.log(foto);
               document.getElementById("Item" + x).src = foto;
               x++;
               Escolhidos.push(Item[Bescolhido]["ID"]);
             }
-            // alert(document.getElementById("Item" + x).src+"Link | Antes"+image);
             if (document.getElementById("Item" + x).src != image) {
               Fescolhido = false;
             }
-            //     }
-            //   }
-            // }
-            // }
           }
         }
       }

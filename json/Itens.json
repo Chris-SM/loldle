@@ -189,7 +189,7 @@
         "ID": 32,
         "Dano": "AD",
         "Nome": "Terminus",
-        "Serie": ""
+        "Serie": "Ranged"
     },
     {
         "ID": 33,
@@ -464,11 +464,13 @@
     {
         "ID": 78,
         "Dano": "AP",
-        "Nome": "Ladrão de Almas de Mejai"
+        "Nome": "Ladrão de Almas de Mejai",
+        "Serie": ""
     },
     {
         "ID": 79,
         "Dano": "MM",
-        "Nome": "Armadilha de Yordle"
+        "Nome": "Armadilha de Yordle",
+        "Serie": ""
     }
 ]
