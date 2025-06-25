@@ -32,6 +32,7 @@
    
   .champion-image {
     width: 100%;
+    min-height: 317px;
     border-radius: 8px;
     margin-bottom: 10px;
   }

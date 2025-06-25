@@ -472,5 +472,11 @@
         "Dano": "MM",
         "Nome": "Armadilha de Yordle",
         "Serie": ""
+    },
+    {
+        "ID": 80,
+        "Dano": "AP",
+        "Nome": "Fantasia de Bandopolis",
+        "Serie": ""
     }
 ]

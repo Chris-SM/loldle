@@ -61,7 +61,7 @@ async function item(Dano, Alcan,SemSup) {
     Fescolhido = true; 
     while (Fescolhido) {
       console.log( Item.length);
-      Bescolhido = Math.round(Math.random() * Item.length);
+      Bescolhido = 1+Math.round(Math.random() * Item.length);
       let classe = Item[Bescolhido]["Dano"];
       console.log(Bescolhido);
       console.log(Item[Bescolhido]["Nome"]);
@@ -181,7 +181,7 @@ async function bota(Dano) {
   var Bota = await Reposta.json();
   var Fescolhido = true;
   while (Fescolhido) {
-    Bescolhido = Math.round(Math.random() * 7);
+    Bescolhido = 1+Math.round(Math.random() * 7);
     // console.log(Bescolhido);
     let classe = Bota[Bescolhido]["Classe"];
     if (Dano == classe || "MM" == Dano || classe == "MM") {
@@ -325,3 +325,6 @@ async function RunaE() {
   }
 }
 
+async function escolherFeitico() {
+  var imagem = document.getElementById("Feitico").src
+}
