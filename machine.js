@@ -4,7 +4,6 @@ var valorMaximo = 78;
 
 function rerollChampion() {
   var ItenHabilitado = document.getElementById("SupItens").checked;
-  console.log(ItenHabilitado);
   let Escolhido = 1 + Math.round(Math.random() * 120);
   fetch("json/Campeos.json")
     .then((resposta) => resposta.json())
@@ -16,9 +15,11 @@ function rerollChampion() {
           document.getElementById("name").innerHTML = json[fim]["Nome"];
           document.getElementById("frase").innerHTML = json[fim]["Frase"];
           document.getElementById("bota").src = "";
+          console.log(json[fim]["Dano"]);
           bota(json[fim]["Dano"]);
           item(json[fim]["Dano"], json[fim]["Alcance"],ItenHabilitado);
           RunaE();
+          escolherFeitico();
           fim = 120;
         }
       }
@@ -60,12 +61,11 @@ async function item(Dano, Alcan,SemSup) {
     var image = document.getElementById("Item" + x)
     Fescolhido = true; 
     while (Fescolhido) {
-      console.log( Item.length);
       Bescolhido = 1+Math.round(Math.random() * Item.length);
       let classe = Item[Bescolhido]["Dano"];
       console.log(Bescolhido);
       console.log(Item[Bescolhido]["Nome"]);
-      console.log(Item[Bescolhido]["Serie"]);
+      // console.log(Item[Bescolhido]["Serie"]);
       if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
         if (!(itemSuEs && Item[Bescolhido]["Serie"] == "Sup")) {
           if(Item[Bescolhido]["Serie"] == "Sup")
@@ -74,7 +74,7 @@ async function item(Dano, Alcan,SemSup) {
             if(Item[Bescolhido]["Serie"] == "Mana")
             manaItem = true;
           
-          if (!(!(Alcan == "P") && Item[Bescolhido]["ID"] == "Ranged")) {
+          if (!(Alcan == "P" && Item[Bescolhido]["ID"] == "Ranged")) {
             if ((Dano == classe || "MM" == Dano || classe == "MM")) {
               var foto = "img/Itens/Item(" + Item[Bescolhido]["ID"] + ").jpg";
               document.getElementById("Item" + x).src = foto;
@@ -138,7 +138,7 @@ async function item(Dano, Alcan,SemSup) {
 //               x++;
 //               Escolhidos.push(Item[Bescolhido]["ID"]);
 //             }
-//             // alert(document.getElementById("Item" + x).src+"Link | Antes"+image);
+//             // console.log(document.getElementById("Item" + x).src+"Link | Antes"+image);
 //             if (document.getElementById("Item" + x).src != image && document.getElementById("Item" + x).src != null) {
 //               Fescolhido = false;
 //             }
@@ -169,7 +169,7 @@ async function item(Dano, Alcan,SemSup) {
 //       sugestao = Math.round(Math.random() * valorMaximo);
 //     }
 //     sorteados.push(sugestao);
-//     alert(sorteados[escolhidos]);
+//     console.log(sorteados[escolhidos]);
 //   }
 // }
 
@@ -181,11 +181,12 @@ async function bota(Dano) {
   var Bota = await Reposta.json();
   var Fescolhido = true;
   while (Fescolhido) {
-    Bescolhido = 1+Math.round(Math.random() * 7);
-    // console.log(Bescolhido);
-    let classe = Bota[Bescolhido]["Classe"];
+    Bescolhido = Math.round(Math.random() * 8);
+    console.log("AAAAAAAAAAAAAAAA: "+ Bescolhido)
+    var classe = Bota[Bescolhido]["Classe"];
+    console.log("Dano : "+Dano)
     if (Dano == classe || "MM" == Dano || classe == "MM") {
-      // console.log(classe, Bota[Bescolhido]["ID"]);
+      console.log(Bescolhido , classe, Bota[Bescolhido]["ID"]);
       var foto = "img/BootsFeiticos/Bota(" + Bota[Bescolhido]["ID"] + ").jpg";
       document.getElementById("bota").src = foto;
     }
@@ -205,7 +206,7 @@ async function bota(Dano) {
 //   {
 //     vez = 1;
 //   Bescolhido = Math.round(Math.random()*7);
-//   // alert(Bescolhido+" Ale");
+//   // console.log(Bescolhido+" Ale");
 //   fetch("Botas.json")
 //     .then((resposta) => resposta.json())
 //     .then((json) => {
@@ -326,5 +327,5 @@ async function RunaE() {
 }
 
 async function escolherFeitico() {
-  var imagem = document.getElementById("Feitico").src
+  document.getElementById("Feitico").src = "img/BootsFeiticos/Feitico("+(Math.round(Math.random() * 11)+1)+").jpg";
 }
