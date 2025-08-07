@@ -1132,6 +1132,24 @@
     "Codigo": 126,
     "Funcao": "Mago",
     "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Aurora",
+    "Rota": "Mid",
+    "Frase": "A Bruxa Entre os Mundos",
+    "Codigo": 127,
+    "Funcao": "Mago",
+    "Alcance": "L"
+  },
+  {
+    "Dano": "AP",
+    "Nome": "Zilean",
+    "Rota": "Suporte",
+    "Frase": "O Guardião do Tempo",
+    "Codigo": 128,
+    "Funcao": "Mago",
+    "Alcance": "L"
   }
   
   

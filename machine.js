@@ -1,331 +1,142 @@
-var sorteados = [];
-var tamanho = 5;
-var valorMaximo = 78;
+var escholidoC, escholidoB, escholidoI;
 
-function rerollChampion() {
-  var ItenHabilitado = document.getElementById("SupItens").checked;
-  let Escolhido = 1 + Math.round(Math.random() * 120);
-  fetch("json/Campeos.json")
-    .then((resposta) => resposta.json())
-    .then((json) => {
-      for (let fim = 0; fim < json.length; fim++) {
-        if (Escolhido == Number(json[fim]["Codigo"])) {
-          var foto = "img/Champions/Champion(" + json[fim]["Codigo"] + ").jpeg";
-          document.getElementById("image").src = foto;
-          document.getElementById("name").innerHTML = json[fim]["Nome"];
-          document.getElementById("frase").innerHTML = json[fim]["Frase"];
-          document.getElementById("bota").src = "";
-          console.log(json[fim]["Dano"]);
-          bota(json[fim]["Dano"]);
-          item(json[fim]["Dano"], json[fim]["Alcance"],ItenHabilitado);
-          RunaE();
-          escolherFeitico();
-          fim = 120;
-        }
-      }
-    });
+function campeao() {
+    var nome, titulo, foto, Alcance, dano;
+
+    var ataques = fetch('./json/Campeos.json')
+        .then(campaeos => campaeos.json())
+        .then(campea => {
+            escholidoC = Math.floor(Math.random() * campea.length);
+            nome = campea[escholidoC]["Nome"];
+            titulo = campea[escholidoC]["Frase"];
+            foto = "img/Champions/Champion(" + (escholidoC + 1) + ").jpeg";
+            Alcance = campea[escholidoC]["Alcance"];
+            Dano = campea[escholidoC]["Dano"];
+            document.getElementById("name").innerHTML = nome;
+            document.getElementById("frase").innerHTML = titulo;
+            document.getElementById("image").src = foto;
+            return { Alcance, Dano };
+        });
+
+    document.getElementById("name").value = nome;
+    document.getElementById("frase").value = titulo;
+    document.getElementById("image").src = foto;
+    return ataques;
 }
 
-// "ID": 77,
-// "Nome": "Escudo Relicário"
-// "ID": 75,
-// "Nome": "Moeda Antiga"
-// "ID": 76,
-// "Nome": "Foice Espectral"
+function bota(DadosAtk) {
+    fetch('./json/Botas.json')
+        .then(BotasObj => BotasObj.json())
+        .then(Bota => {
+            var foto = "";
+            DadosAtk.then(dados => {
+                while (foto == "") {
+                    escholidoB = Math.floor(Math.random() * Bota.length);
+                    if (dados["Dano"] == Bota[escholidoB]["Classe"] || Bota[escholidoB]["Classe"] == "MM") {
+                        foto = "img/BootsFeiticos/Bota(" + (escholidoB + 1) + ").jpg";
+                        document.getElementById("bota").src = foto;
+                    }
+                }
+            });
+        });
+}
 
-
-// "ID": 66,
-// "Nome": "Aproximação Invernal"
-// "ID": 43,
-// "Nome": "Cajado Do Arcanjo"
-// "ID": 11,
-// "Nome": "Manamune"
-
-
-
-
-async function item(Dano, Alcan,SemSup) {
-  var itemSuEs = false;
-  if (SemSup) {
-    itemSuEs = true;
-  }
-  var manaItem = false;
-  // var Terminus = false; ver isso
-  var Escolhidos = [];
-  let Bescolhido;
-  var Fescolhido;
-  var Reposta = await fetch("json/Itens.json");
-  var Item = await Reposta.json();
-  for (let x = 1; x < 6;) {
-    document.getElementById("Item" + x).src = "";
-    var image = document.getElementById("Item" + x)
-    Fescolhido = true; 
-    while (Fescolhido) {
-      Bescolhido = 1+Math.round(Math.random() * Item.length);
-      let classe = Item[Bescolhido]["Dano"];
-      console.log(Bescolhido);
-      console.log(Item[Bescolhido]["Nome"]);
-      // console.log(Item[Bescolhido]["Serie"]);
-      if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
-        if (!(itemSuEs && Item[Bescolhido]["Serie"] == "Sup")) {
-          if(Item[Bescolhido]["Serie"] == "Sup")
-          itemSuEs = true;
-          if (!(manaItem && Item[Bescolhido]["Serie"] == "Mana")) {
-            if(Item[Bescolhido]["Serie"] == "Mana")
-            manaItem = true;
-          
-          if (!(Alcan == "P" && Item[Bescolhido]["ID"] == "Ranged")) {
-            if ((Dano == classe || "MM" == Dano || classe == "MM")) {
-              var foto = "img/Itens/Item(" + Item[Bescolhido]["ID"] + ").jpg";
-              document.getElementById("Item" + x).src = foto;
-              x++;
-              Escolhidos.push(Item[Bescolhido]["ID"]);
+function runas() {
+    fetch('./json/Runas.json')
+        .then(RunasObj => RunasObj.json())
+        .then(Runas => {
+            //PR
+            var foto = "";
+            while (foto == "") {
+                escholidoB = Math.floor(Math.random() * Runas.length);
+                if (Runas[escholidoB]["Ordem"] == "PR")
+                    foto = "img/Runas/Runa(" + (escholidoB + 1) + ").jpeg";
+                document.getElementById("Runa1").src = foto;
             }
-            if (document.getElementById("Item" + x).src != image) {
-              Fescolhido = false;
+            // Segunda: Dominação,Precisão,Determinação e Inspiração
+            var foto = "", foto2 = "", foto3 = "";
+            var Classe = ["Dominação", "Precisão", "Determinação", "Inspiração"];
+            var ClasseEsco = Classe[Math.floor(Math.random() * Classe.length)];
+            while (foto == "") {
+                escholidoB = Math.floor(Math.random() * Runas.length);
+                if (Runas[escholidoB]["Ordem"] == "S1" && ClasseEsco == Runas[escholidoB]["Classe"])
+                    foto = "img/Runas/Runa(" + (escholidoB + 1) + ").jpeg";
+                document.getElementById("Runa3").src = foto;
             }
-          }
-        }
-      }
-      }
-    }
-  console.log(Escolhidos);
-  }
+
+            while (foto2 == "") {
+                escholidoB = Math.floor(Math.random() * Runas.length);
+                if (Runas[escholidoB]["Ordem"] == "S2" && ClasseEsco == Runas[escholidoB]["Classe"])
+                    foto2 = "img/Runas/Runa(" + (escholidoB + 1) + ").jpeg";
+                document.getElementById("Runa4").src = foto2;
+            }
+
+            while (foto3 == "") {
+                escholidoB = Math.floor(Math.random() * Runas.length);
+                if (Runas[escholidoB]["Ordem"] == "S3" && ClasseEsco == Runas[escholidoB]["Classe"])
+                    foto3 = "img/Runas/Runa(" + (escholidoB + 1) + ").jpeg";
+                document.getElementById("Runa5").src = foto3;
+            }
+            // Terceira: != de PR e Segunda
+            var foto = "";
+            while (foto == "") {
+                escholidoB = Math.floor(Math.random() * Runas.length);
+                if (Runas[escholidoB]["Ordem"] != "PR" && ClasseEsco != Runas[escholidoB]["Classe"])
+                    foto = "img/Runas/Runa(" + (escholidoB + 1) + ").jpeg";
+                document.getElementById("Runa2").src = foto;
+            }
+        });
 }
 
+function itens(DadosAtk) {
+    var Serie = [false, false, false]; // 0 - Gota, 1 - Sup, 2 - Arco
+    var escholidos = [];
+    var foto = "";
+    fetch('./json/Itens.json')
+        .then(itemObj => itemObj.json())
+        .then(item => {
+            DadosAtk.then(dados => {
+                for (let x = 0; x < 6; x++) {
+                    foto = "";
+                    while (foto == "") {
+                        escholidoI = Math.floor(Math.random() * item.length);
+                        console.log(escholidos);
+                        if (!escholidos.includes(escholidoI)) { // ve se já foi escolhido
+                            if (!(Serie[0] && item[escholidoI]["Serie"] == "Gota")) { // ve se ja tem um item de gota
+                                if (!(Serie[1] && item[escholidoI]["Serie"] == "Sup")) { // ve se ja tem um item de Sup
+                                    if (!(Serie[2] && (item[escholidoI]["Serie"] == "Ranged" && dados["Alcance"] != "P"))) { // ve se ja tem um item de Ranged e é ranged
+                                        console.log(dados["Dano"] +"   ||  "+ item[escholidoI]["Dano"])
+                                        if (dados["Dano"] == "MM" || dados["Dano"] == item[escholidoI]["Dano"]) {
+                                            escholidos.push(escholidoI);
+                                            foto = "img/Itens/Item(" + (escholidoI + 1) + ").jpg";
+                                            if (item[escholidoI]["Serie"] != "") {
+                                                if (item[escholidoI]["Serie"] == "Gota") {
+                                                    Serie[0] = true;
+                                                }
+                                                if (item[escholidoI]["Serie"] == "Sup") {
+                                                    Serie[1] = true;
+                                                }
+                                                if (item[escholidoI]["Serie"] == "Ranged") {
+                                                    Serie[2] = true;
+                                                }
+                                            }
 
-
-
-
-
-
-
-// async function item(Dano, Alcan) {
-//   var itemSuEs = false;
-//   var manaItem = false;
-//   var Escolhidos = [];
-//   let Bescolhido;
-//   var Fescolhido;
-//   var Reposta = await fetch("json/Itens.json");
-//   var Item = await Reposta.json();
-//   for (let x = 1; x < 6;) {
-//     document.getElementById("Item" + x).src = "";
-//     var image = document.getElementById("Item" + x)
-//     Fescolhido = true;
-//     while (Fescolhido) {
-//       Bescolhido = Math.round(Math.random() * 77);
-//       // console.log(Bescolhido);
-//       let classe = Item[Bescolhido]["Dano"];
-//       // console.log(Bescolhido);
-//       // console.log(Item[Bescolhido]["Nome"]);
-//       if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
-//         if (!(itemSuEs && Item[Bescolhido]["Serie"] == "Sup")) {
-//           if(Item[Bescolhido]["Serie"] == "Sup")
-//           itemSuEs = true;
-//           if (!(manaItem && Item[Bescolhido]["Serie"] == "Mana")) {
-//             if(Item[Bescolhido]["Serie"] == "Mana")
-//             manaItem = true;
-
-//           if (!(Alcan == "P" && Item[Bescolhido]["Serie"] == Ranged)) {
-//             // if (!Escolhidos.includes(Item[Bescolhido]["ID"])) {
-//             //   if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2) || (Escolhidos.includes() && Item[Bescolhido]["ID"] == 2)) {
-//             //     if ((!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3) || (!Escolhidos.includes() && Item[Bescolhido]["ID"] == 3)) {
-//             if ((Dano == classe || "MM" == Dano || classe == "MM")) {
-//               // console.log(classe, Item[Bescolhido]["ID"]);
-//               var foto = "img/Itens/Item(" + Item[Bescolhido]["ID"] + ").jpg";
-//               // console.log(foto);
-//               document.getElementById("Item" + x).src = foto;
-//               x++;
-//               Escolhidos.push(Item[Bescolhido]["ID"]);
-//             }
-//             // console.log(document.getElementById("Item" + x).src+"Link | Antes"+image);
-//             if (document.getElementById("Item" + x).src != image && document.getElementById("Item" + x).src != null) {
-//               Fescolhido = false;
-//             }
-//             //     }
-//             //   }
-//             // }
-//             // }
-//           }
-//         }
-//       }
-//       }
-//     }
-//   // console.log(Escolhidos);
-//   }
-// }
-
-
-
-
-
-
-
-
-// function Item() {
-//   for (let escolhidos = 0; escolhidos < 6; escolhidos++) {
-//     sugestao = Math.round(Math.random() * valorMaximo);
-//     while (sorteados.indexOf(sugestao) >= 0) {
-//       sugestao = Math.round(Math.random() * valorMaximo);
-//     }
-//     sorteados.push(sugestao);
-//     console.log(sorteados[escolhidos]);
-//   }
-// }
-
-async function bota(Dano) {
-  let Bescolhido;
-  document.getElementById("bota").src = "";
-  var image = document.getElementById("bota").src
-  var Reposta = await fetch("json/Botas.json");
-  var Bota = await Reposta.json();
-  var Fescolhido = true;
-  while (Fescolhido) {
-    Bescolhido = Math.round(Math.random() * 8);
-    console.log("AAAAAAAAAAAAAAAA: "+ Bescolhido)
-    var classe = Bota[Bescolhido]["Classe"];
-    console.log("Dano : "+Dano)
-    if (Dano == classe || "MM" == Dano || classe == "MM") {
-      console.log(Bescolhido , classe, Bota[Bescolhido]["ID"]);
-      var foto = "img/BootsFeiticos/Bota(" + Bota[Bescolhido]["ID"] + ").jpg";
-      document.getElementById("bota").src = foto;
-    }
-    if (document.getElementById("bota").src != image) {
-      Fescolhido = false;
-    }
-  }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        console.log(foto);
+                        document.getElementById("Item" + (x + 1)).src = foto;
+                    }
+                }
+            });
+        });
 }
 
-
-//1°
-// function bota(Dano) {
-//   let Bescolhido;
-//   let vez = 1;
-//   var Fescolhido = true;
-//   while(Fescolhido)
-//   {
-//     vez = 1;
-//   Bescolhido = Math.round(Math.random()*7);
-//   // console.log(Bescolhido+" Ale");
-//   fetch("Botas.json")
-//     .then((resposta) => resposta.json())
-//     .then((json) => {
-//       if(vez == 1)
-//       {
-//       console.log(Bescolhido);
-//       console.log(json[Bescolhido]);
-//       let classe = json[Bescolhido]["Classe"];
-//       if (Dano == classe || "MM" == Dano || classe == "MM") {
-//         var foto = "img/BootsFeiticos/Bota("+json[Bescolhido]["ID"]+").jpg";
-//         document.getElementById("bota").src = foto;
-//         // alert(document.getElementById("bota").src);
-//         // alert(foto);
-//         bota(json[Bescolhido]["Classe"]);
-//       }
-//     }
-//     });
-//     if (document.getElementById("bota").src != "") {
-//       Fescolhido = false;
-//     }
-//   }
-// }
-
-// async function printJSON() {
-//   const response = await fetch("Campeos.json");
-//   const json = await response.json();
-//   console.log(json);
-// }
-
-//   fetch("Campeos.json")
-// .then(response => response.json())
-// .then(json => console.log(json));
-
-
-async function RunaE() {
-  var Escolhidos = [];
-  let Bescolhido;
-  var Pescolhido;
-  var Reposta = await fetch("json/Runas.json");
-  var runa = await Reposta.json();
-  Bescolhido = 1+Math.round(Math.random() * 11);
-  document.getElementById("Runa1").src = "img/Runas/Runa("+Bescolhido+").jpeg";
-  Bescolhido = 1+Math.round(Math.random() * 3);
-  if(Bescolhido == 1)
-  {Pescolhido = "Dominação";}
-  else if(Bescolhido == 2)
-  {Pescolhido = "Precisão";}
-  else if(Bescolhido == 3)
-  {Pescolhido = "Determinação";}
-  else
-  {Pescolhido = "Inspiração";}
-  let final = true;
-
-  let foi1 = false;
-  let foi2 = false;
-  let foi3 = false;
-  while(final) {
-    // alert(foi1)
-    Bescolhido = 12+Math.round(Math.random() * 38);
-    // alert("Escolhido:  "+Bescolhido);
-    let classe = runa[Bescolhido]["Classe"];
-    let ordem = runa[Bescolhido]["Ordem"];
-    let id = runa[Bescolhido]["ID"];
-    // alert("Classe: "+classe+"|  Escolhida: "+Pescolhido+" Ordem: "+ordem+" | ID: "+id);
-    if(classe == Pescolhido)
-    {
-      // alert(ordem);
-      switch (ordem) {
-        case "S1":
-          // alert("S!!!!!!!!!");
-          if(!foi1){
-            // alert("Escolhido");
-          document.getElementById("Runa3").src = "img/Runas/Runa("+id+").jpeg";
-          foi1 = true;
-          }
-          break;
-        case "S2":
-          // alert("S@@@@@@@@@");
-          if(!foi2){
-            // alert("Escolhido");
-          document.getElementById("Runa4").src = "img/Runas/Runa("+id+").jpeg";
-          foi2 = true;
-          }
-          break;
-        case "S3":
-          // alert("S#########");
-          if(!foi3){
-            // alert("Escolhido");
-          document.getElementById("Runa5").src = "img/Runas/Runa("+id+").jpeg";
-          foi3 = true;
-          }
-          break;
-      
-        default:
-          break;
-      }
-    }
-    // alert(foi1+" | "+foi2+" | "+foi3)
-    if(foi1== true &&foi2 == true &&foi3 == true )
-    {
-      final = false;
-    }
-  }
-  final = true;
-  while(final)
-  {
-    Bescolhido = 12+Math.round(Math.random() * 38);
-    let classe = runa[Bescolhido]["Classe"];
-    let ordem = runa[Bescolhido]["Ordem"];
-    let id = runa[Bescolhido]["ID"];
-    if(!(Pescolhido == classe))
-    {
-      document.getElementById("Runa2").src = "img/Runas/Runa("+id+").jpeg";
-      final = false
-    }
-    
-  }
-}
-
-async function escolherFeitico() {
-  document.getElementById("Feitico").src = "img/BootsFeiticos/Feitico("+(Math.round(Math.random() * 11)+1)+").jpg";
+function radomizer() {
+    var dadosC = campeao();
+    itens(dadosC);
+    runas();
+    bota(dadosC);
 }
